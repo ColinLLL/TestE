@@ -12,6 +12,8 @@
       = @page_title || "Pragmatic Bookshelf"
     #columns
       #side{:style => "float: left; padding: 1em 2em; width: 13em; background: #141;"}
+        #cart
+          = render @cart
         %ul
           %li
             %a{:href => "http://www...."} Home
