@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'twitter-bootstrap-rails'
 gem 'haml-rails'
+gem 'will_paginate'
 
 group :doc do
   gem 'sdoc', require: false
